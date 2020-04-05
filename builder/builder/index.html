@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Site Builder</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="css left-side-panel/left-nav-style.css">
+  <link rel="stylesheet" type="text/css" href="css left-side-panel/style.css">
+  <link rel="stylesheet" type="text/css" href="css left-side-panel/left-nav-style-2.css">
+  <script src = "2.js" defer></script>
+</head>
+<body>
+		<nav class="h">
+
+      <!-- ДИЗАЙН -->
+      
+      <div class="dropdown">
+        <span>Дизайн</span>
+        <div class="dropdown-content">
+        <p><a href="#">Стили</a></p>
+        <p><a href="#">Шрифты</a></p>
+        <p><a href="#">Цвета</a></p>
+        <p><a href="#">Анимации</a></p>
+        </div>
+      </div>
+
+			<a href="#" class="ml">Помощь</a>
+			<button> Просмотр</button>  
+			<button style="width: 140px;">Опубликовать</button>  
+			<div></div>
+			
+			<a href="#" style="font-size:40px;" class="ml">	&#8592;</a>
+			<a href="#" class="ml"  style="font-size:40px;">	&#8594;</a>
+
+		</nav>
+
+
+    <div id = "left_panel">
+          <!-- LEFT SIDE PANEL -->
+          
+        <input type="checkbox" id="nav-toggle" name="nav-t" hidden>
+        <nav class="nav">
+          <label for="nav-toggle" class="nav-toggle" onclick></label>
+              <h2> 
+                  <a href="#">Добавить</a> 
+              </h2>
+              
+              <!-- DRAG & DROP -->
+      
+              <div id = "colonka">
+                  <div class = "punct" style = "margin:30px;">
+                           <p class = "title_p1" data-p = "title_p1">Контейнеры: </p>
+                           <div class = "blocks">
+                              <p style = "margin-right:15px;">Блок: </p>
+                              <div class = "subpunct" style = "margin:10px;"></div>
+                           </div>
+                           <div class = "blocks">
+                              <p style = "margin-right:15px;">Картинка: </p>
+                              <img class = "subpunct" src = "https://cs8.pikabu.ru/post_img/big/2016/02/04/7/145458292112119207.jpg" style = "margin:10px;">
+                           </div>
+                           <div class = "blocks">
+                             <p style = "margin-right:15px;">Параграф: </p>
+                             <p class = "subpunct" style = "margin:10px; text-align: center;
+                             color:brown;">Текст</p>
+                          </div>
+                          <div class = "blocks">
+                            <p style = "margin-right:15px;">Ссылка: </p>
+                            <a href = "#" class = "subpunct" style = "margin:10px; text-align: center;
+                            color:brown;">Текст-ссылка</a>
+                         </div>
+                      </div>   
+                      <div class = "punct" style = "margin:30px;">
+
+                         <p class = "title_p2" data-p = "title_p2">Загаловки: </p>
+                           <div class = "blocks">
+                              <p style = "margin-right:15px;">Блокs: </p>
+                              <div class = "subpunct" style = "margin:10px;"></div>
+                           </div>
+                           <div class = "blocks">
+                              <p style = "margin-right:15px;">Картинка: </p>
+                              <img class = "subpunct" src = "https://cs8.pikabu.ru/post_img/big/2016/02/04/7/145458292112119207.jpg" style = "margin:10px;">
+                           </div>
+                           <div class = "blocks">
+                             <p style = "margin-right:15px;">Параграф: </p>
+                             <p class = "subpunct" style = "margin:10px; text-align: center;
+                             color:brown;">Текст</p>
+                          </div>
+                          <div class = "blocks">
+                            <p style = "margin-right:15px;">Ссылка: </p>
+                            <a href = "#" class = "subpunct" style = "margin:10px; text-align: center;
+                            color:brown;">Текст-ссылка</a>
+                         </div>
+             </div>
+        </div>
+    </nav>
+
+   <!--SECOND-->
+
+    <input type="checkbox" id="nav-toggle-2" name="nav-t" hidden>
+    <nav class="nav-2">
+    <label for="nav-toggle-2" class="nav-toggle-2" onclick></label>  
+        <h2> 
+            <a href="#">Страницы</a> 
+        </h2>
+        <ul>
+            <li><a href="#1">Главная</a>
+            <li><a href="#2">lorem</a>
+            <li><a href="#3">lorem</a>
+            <li><a href="#4">lorem</a>
+            <li><a href="#5">lorem</a>
+            <li><a href="#6">lorem</a>
+            <li><a href="#7">lorem</a> 
+        </ul>
+    </nav>
+  </div>
+
+<!-- header на div не фурычит -->
+
+      <header id = "header" style = "margin-top:75px;  background-color: aqua; background-image: url(https://klike.net/uploads/posts/2019-01/1547367999_1.jpg);">
+
+      </header>
+       <div id = "main">
+       </div>
+       <div id = "footer">
+
+      </div>
+
+<!-- 
+  <h1>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h1>
+  
+  <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+  
+  <h2>Header Level 2</h2>
+  
+  <ol>
+    <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+    <li>Aliquam tincidunt mauris eu risus.</li>
+  </ol>
+  
+  <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
+  
+  <h3>Header Level 3</h3>
+  
+  <ul>
+    <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+    <li>Aliquam tincidunt mauris eu risus.</li>
+  </ul>
+  
+  <pre><code>
+  #header h1 a { 
+    display: block; 
+    width: 300px; 
+    height: 80px; 
+  }
+  </code></pre>
+
+  <h1>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h1>
+  
+  <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+  
+  <h2>Header Level 2</h2>
+  
+  <ol>
+    <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+    <li>Aliquam tincidunt mauris eu risus.</li>
+  </ol>
+  
+  <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
+  
+  <h3>Header Level 3</h3>
+  
+  <ul>
+    <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+    <li>Aliquam tincidunt mauris eu risus.</li>
+  </ul>
+  
+  <pre><code>
+  #header h1 a { 
+    display: block; 
+    width: 300px; 
+    height: 80px; 
+  }
+  </code></pre>
+ -->
+
+	<script type="text/javascript" src="script.js" defer></script>
+</body>
+</html>
